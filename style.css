@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.randomGeneratorWrapper {
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #bdc1c6;
+  background: rgb(54, 53, 53);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+.randomGeneratorContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.randomGeneratorContent div:nth-child(1) {
+  font-size: 30px;
+}
+.randomGeneratorContent div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 15px;
+}
+.randomGeneratorContent div:nth-child(2) input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid grey;
+  color: #bdc1c6;
+}
+.randomGeneratorWrapper button {
+  width: 100%;
+  background: royalblue;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px;
+}
